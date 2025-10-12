@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.20)
 project(CSP VERSION 2.2)
 
-if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
-  set(DEFAULT_BUILD_SHARED_LIBS ON)
-endif()
+# if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
+#   set(DEFAULT_BUILD_SHARED_LIBS ON)
+# endif()
 option(BUILD_SHARED_LIBS "Build using shared libraries" ${DEFAULT_BUILD_SHARED_LIBS})
 
 add_library(csp)
